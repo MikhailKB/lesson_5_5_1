@@ -27,7 +27,7 @@ namespace lesson_5_5_1
         }
         static void Main(string[] args)
         {
-            WriteLine("Введите случайное предложение, разделяя слова пробелами: ");
+            WriteLine("Введите любое предложение, разделяя слова пробелами: ");
             string text = ReadLine();
             ArrayCreation(text);
             string[] words = ArrayCreation(text);
